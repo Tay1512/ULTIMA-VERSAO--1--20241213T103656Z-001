@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Mundo Hello Kitty</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link rel="stylesheet" href="projeto (1).css">
+</head>
+<body>
+    <header class = "flex"> 
+       <!--<img src="HELLO_KITTY/R.png" alt="Logo da Hello Kitty">---->
+      <img class = "logo" src="https://www.seekpng.com/png/detail/25-254545_brands-hello-kitty-logo-transparent.png">
+      <div class ="busca">
+        <span class ='fa fa-search'></span>
+        <input type="text" placeholder="Busca">
+      </div>
+      <ul>
+        <li><a class="fa fa-instagram" href="https://www.instagram.com/hellokitty/"></a></li>
+        <li><a class="fa fa-youtube-play" href="https://www.youtube.com/@HelloKittyEAmigosBrasil"></a></li>
+        <li><a class="fa fa-twitter" href="https://x.com/hellokitty"></a></li>
+    </ul>
+  </header>
+    <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Personagens</a></li>
+      <li><a href="#">Admistradores</a></li>
+      <li><a href="#">Dados do usuário</a></li>
+  </ul>
+</nav>
+    
+
+    <img class="logo1" src="https://th.bing.com/th/id/R.876f483d6a0f32fa3760d665326073c4?rik=j0QV%2bUKV6HkSeA&riu=http%3a%2f%2flogos-download.com%2fwp-content%2fuploads%2f2016%2f06%2fHello_Kitty_logo-1.png&ehk=kuGfyQYYHjw1AYnVltFiNNpNRGpQsGsnNXUjNJUd3cU%3d&risl=&pid=ImgRaw&r=0">
+    <h1>CADASTRO</h1>
+    <form action="server.php" method="post">
+      <div class="grupo">
+      <label class = "rotulo" for="nome">Nome</label>
+      <input type="text" id="nome" class="controle" name="nome">
+     </div>
+      <div class="grupo">
+      <label class="email" for="email">Email</label>
+      <input type="email" id="email" class="controle" name="login">
+    </div>
+
+    <div class="grupo">
+      <label class="telefone" for="telefone">Telefone</label>
+      <input type="tel" id="telefone" class="controle" name="telefone">
+    </div>
+
+    <div class="grupo">
+      <label class="data" for="data">Data de nascimento</label>
+      <input type="date" id="data" class="controle" name="data">
+    </div>
+
+    <div class="grupo">
+       <label class="genero">Gênero</label>
+       <input type="radio" id="masculino" name="gênero" value="Masculino">
+       <label class="masculino" for="masculino">Masculino</label>
+       <input type="radio" id="feminino" name="gênero" value="Feminino">
+       <label  class="feminino"for="feminino">Feminino</label>
+       <label class="outro" for="outro">Outro</label>
+       <input type="text" id="outro" class="controle" name="gênero">
+    </div>
+    <div class="grupo">
+      <label class="cor" for="cor">Cor favorita</label>
+      <input type="color" id="cor" class="controle" name="cor">
+    </div>
+
+    <div class="grupo">
+      <label class="arquivo" for="arquivo">Foto de perfil</label>
+      <input type="file" id="arquivo" class="controle" name="foto">
+    </div>
+    
+    <div class="grupo">
+      <label class="interesse">Diga seus interesses</label>
+      <div>
+        <input type="checkbox" id="musica" class="controle1" name="interesse" value="musica">
+        <label for="musica">Música</label>
+      </div>
+      <div>
+        <input type="checkbox" id="esporte" class="controle1" name="interesse" value="esporte">
+        <label for="esporte">Esporte</label>
+      </div>
+      <div>
+        <input type="checkbox" id="tecnologia" class="controle1" name="interesse" value="tecnologia">
+        <label for="tecnologia">Tecnologia</label>
+      </div>
+      <div>
+        <input type="checkbox" id="arte" class="controle1" name="interesse" value="arte">
+        <label for="arte">Arte</label>
+      </div>
+    </div>
+    
+
+    <div class="grupo">
+      <label class="senha"for="senha">Senha</label>
+      <input type="password" id="senha" class="controle" name="senha">
+    </div>
+
+    <div class="grupo">
+      <input type="submit" value="Acessar" class="btn">
+  </div>
+  <div>
+    <input type="reset" value="Limpar" class="btn-reset">
+  </div> 
+  
+    </form>
+   <footer>
+    <img src="https://portal.ifrn.edu.br/media/images/38539_IFRN_Santa_Cruz_divulga_oportunidade_de_.width-500.jpg" alt="">
+<p>Trabalho de Autoria Web</p>
+<p>Professor(a): Marcelo Júnior</p>
+<p>Programadores: Ávila Tayse, Maria Clara e Maria Eduarda</p>
+<ul>
+  <li><a class="fa fa-instagram" href="https://www.instagram.com/hellokitty/"></a></li>
+  <li><a class="fa fa-youtube-play" href="https://www.youtube.com/@HelloKittyEAmigosBrasil"></a></li>
+  <li><a class="fa fa-twitter" href="https://x.com/hellokitty"></a></li>
+</ul>
+   </footer>
+</body>
+</html>
